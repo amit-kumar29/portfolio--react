@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.4rem;
+    background: var(--second-bg-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.footer p{
+    margin: 2rem;
+}
+
+.footer .home-link {
+    margin: 2rem;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.footer .home-link:hover {
+    text-decoration: underline;
+}
